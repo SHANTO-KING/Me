@@ -224,8 +224,8 @@ class main_crack():
                 with requests.Session() as session:
                     device_id = str(uuid.uuid4())
                     adid = str(uuid.uuid4())
-                    data = {'adid':adid,
-                    {"email":"saimunk",
+                    {"data":
+                    "email":"saimunk",
                     "password":"1234",
                     "adid":"f7b01c67-7dfb-4881-8b5d-5adb88b51092",
                     "device_id":"5b25a826-7532-4f62-9c6d-28b362c875bd",
