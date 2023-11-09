@@ -155,7 +155,7 @@ def SOHAN_S_K1N9():
     print(logo)
     print("")
     print('\033[32;1m   [01] RANDOM CLONING ')
-    print\x1b[38;5;50m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆""")
+print('\x1b[1;94m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[1;92')
     SOHAN = input('\n\x1b[1;32mCHOOSE : ')
     if SOHAN == '1':
     	os.system('speak -a 300 "random cloning start"')
