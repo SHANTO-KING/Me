@@ -154,8 +154,8 @@ def SOHAN_S_K1N9():
     os.system('clear')
     print(logo)
     print("")
-    print('\033[32;1m   [01] RANDOM CLONING ')
-    print('\x1b[1;94m  ════════════════════════════════════════\x1b[1;92')
+    print('\033[32;1m[01] RANDOM CLONING ')
+    print('\x1b[1;94m════════════════════════════════════════\x1b[1;92')
     SOHAN = input('\n\x1b[1;32mCHOOSE : ')
     if SOHAN == '1':
     	os.system('speak -a 300 "random cloning start"')
@@ -166,38 +166,21 @@ def SOHAN_S_K1N9():
         os.system('exit')
         return None
 
-logo =("""                                                
-\x1b[38;5;46m                                   ,...             
-\x1b[38;5;46m      db                         .d' ""       mm    
-     ;MM:                        dM`          MM    
-    ,V^MM.    `7Mb,od8 ,6"Yb.   mMMmm ,6"Yb.mmMMmm  
-   ,M  `MM      MM' "'8)   MM    MM  8)   MM  MM    
-   AbmmmqMA     MM     ,pm9MM    MM   ,pm9MM  MM    
-  A'     VML    MM    8M   MM    MM  8M   MM  MM    
-.AMA.   .AMMA..JMML.  `Moo9^Yo..JMML.`Moo9^Yo.`Mbmo 
-                                           
-\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mDeveloper \033[1;31m● \x1b[38;5;46mArafat Hosan
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mFacebook  \033[1;31m● \x1b[38;5;46mArafat Hosan
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mVersion  \033[1;31m ● \x1b[38;5;46m1.6
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mTools  \033[1;31m   ● \x1b[38;5;46mRandom Cloning
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mType  \033[1;31m    ● \x1b[38;5;46mpaid
-\x1b[38;5;50m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆""")
+logo = (f"""
+\033[1;33m  ░█▀▀▀█ ░█─░█ ─█▀▀█ ░█▄─░█ ▀▀█▀▀ ░█▀▀▀█ 
+\033[1;32m  ─▀▀▀▄▄ ░█▀▀█ ░█▄▄█ ░█░█░█ ─░█── ░█──░█ 
+\033[1;36m  ░█▄▄▄█ ░█─░█ ░█─░█ ░█──▀█ ─░█── ░█▄▄▄█
+ \033[0;92m┌───────────────────────────────────────┐
+ \033[0;92m│ [•] AUTHOR : SOHAN KHAN           
+ \033[0;92m│ [•] GITHUB :  SOHAN143S               
+ \033[0;92m│ [•] STATUS : PERSONAL         
+ \033[0;92m│ [•] TOOLS :\033[1;32m RANDOM\033[0;92m 
+ \033[0;92m└───────────────────────────────────────┘
+  \x1b[0;91m\x1b[1;43mᏆͲՏ ՏϴᎻᎪΝ ͲᎻᎬ ՏᏆᏞᎬΝͲ ᏦᏆᏞᏞᎬᎡ\x1b[0m
+ \x1b[1;94m═══════════════════════════════════════\x1b[1;92""")
+def linex():
+	print('\x1b[1;94m══════════════════════════════════════\x1b[1;92')
 
-linex=('\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆')   
-#--------------------------(MENU BOX)--------------------------#
-class Main:
-    def __init__(self):
-        self.id = []
-        self.ok = []
-        self.cp = []
-        self.loop = 0
-        os.system("clear")
-        print(logo)
-    #    os.system('xdg-open fb://group/1885398221816745?ref=share&mibextid=NSMWBT')
-        print('\033[1;31m[\033[1;32m1\033[1;31m]  \x1b[38;5;46m START RANDOM CLONE')
-        print('\033[1;31m[\033[1;32m2\033[1;31m]  \x1b[38;5;46m EXIT')
-        print('\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆')
 
 
 try:
