@@ -155,6 +155,7 @@ def SOHAN_S_K1N9():
     print(logo)
     print("")
     print('\033[32;1m[01] RANDOM CLONING ')
+
     print('\x1b[1;94m════════════════════════════════════════\x1b[1;92')
     SOHAN = input('\n\x1b[1;32mCHOOSE : ')
     if SOHAN == '1':
@@ -174,11 +175,10 @@ logo = (f"""
 \033[0;92m│ [•] AUTHOR : SOHAN KHAN           
 \033[0;92m│ [•] GITHUB : SOHAN143S               
 \033[0;92m│ [•] STATUS : PERSONAL         
-\033[0;92m│ [•] TOOLS   :  \033[1;32m RANDOM\033[0;92m 
+\033[0;92m│ [•] TOOLS  :  RANDOM
 \033[0;92m└──────────────────────────────────────┘
 \x1b[1;94m════════════════════════════════════════\x1b[1;92""")
 def linex():
-
 	print('\x1b[1;94m═══════════════════════════════════════\x1b[1;92')
 
 
